@@ -178,10 +178,12 @@ $ pod install
 3. 方便分离库本身对外界的依赖
 
     ├── Base  // 主库
-    │   ├── Network
+    │   ├── Network 
     │   │   ├── AFN (依赖 n.dependency 'AFNetworking', '~> 2.3')
     │   │── Category
     │   │── Tool
+
+Network (分层解耦, ASI->AFN->其它网络组件)
 ```
 
 
@@ -240,10 +242,6 @@ $ pod install
     等价
     pod 'privateBase', :subspecs => ['Network', 'Tool']
 ```
-
-
-
-
 
 
 ####问题
