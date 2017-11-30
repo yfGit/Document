@@ -9,7 +9,7 @@
 `pod update`  下载本地Podfile里如果没有指定版本号就更新最新, 这样协同合作的时候就会冲突
 
 
-![](media/14817841058829/15118503032216.jpg)
+![](PrivateLib/main.png)
 
 
 ###私有库
@@ -113,7 +113,7 @@ $ pod init
 
 
 ####远程私有库
-![](media/14817841058829/15119474374704.jpg)
+![](PrivateLib/private.png)
 
 
 ```
@@ -168,7 +168,7 @@ $ pod install
 
 ####SubSpecs
 
-![](media/14817841058829/15120065633806.jpg)
+![](PrivateLib/subspecs.png)
 
 ```
 为什么要用
@@ -258,7 +258,7 @@ $ pod search xxx
 
 > pod spec lint 错误
 
-![-w620](media/14817841058829/15119400315955.jpg)
+![-w620](PrivateLib/error0.png)
 
 
 解决方法:
